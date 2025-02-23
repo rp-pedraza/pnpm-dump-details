@@ -1,0 +1,32 @@
+{
+  "name": "@rp-pedraza/pnpm-dump-details",
+  "version": "1.0.1",
+  "description": "Used for dumping active test data",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "compile": "tsc --build"
+  },
+  "keywords": [],
+  "author": "R.P. Pedraza <rp.pedraza@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/rp-pedraza/pnpm-dump-details",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rp-pedraza/pnpm-dump-details"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.5",
+    "@types/shell-quote": "^1.7.5",
+    "shell-quote": "^1.8.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
